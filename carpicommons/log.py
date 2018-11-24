@@ -9,7 +9,7 @@ from os.path import isfile
 from sys import exc_info
 from traceback import format_exception
 
-from daemoncommons.errors import CarPiExitException
+from .errors import CarPiExitException
 
 _LOGGER: Logger = None
 
